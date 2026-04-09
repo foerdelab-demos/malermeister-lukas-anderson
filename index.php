@@ -36,9 +36,6 @@ require_once __DIR__ . '/partials/nav.php';
                     <a href="kostenvoranschlag.php" class="btn btn--outline-light btn--lg">
                         Kostenvoranschlag anfordern
                     </a>
-                    <a href="kontakt.php" class="btn btn--ghost" style="color:rgba(245,243,239,.8)">
-                        Kontakt aufnehmen
-                    </a>
                 </div>
             </div>
         </div>

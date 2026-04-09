@@ -46,27 +46,15 @@ require_once __DIR__ . '/partials/nav.php';
                     <h2 id="ueber-title">Handwerk aus Überzeugung</h2>
 
                     <p>
-                        Ich bin <?= SITE_OWNER ?>, Malermeister aus Dinslaken, und ich bin in dieser Region aufgewachsen. Das Niederrheinische – die Menschen hier, die Direktheit, der Zusammenhalt in den Nachbarschaften – das hat mich geprägt. Wenn ich heute für Kunden in Dinslaken, Voerde oder Wesel arbeite, tue ich das nicht als anonymes Unternehmen, sondern als jemand, der selbst hier lebt und weiß, was die Menschen in dieser Gegend von einem Handwerker erwarten: Verlässlichkeit, klare Ansagen und Arbeit, die wirklich hält.
+                        Ich bin <?= SITE_OWNER ?>, Malermeister aus Dinslaken, und in dieser Region aufgewachsen. Wenn ich heute für Kunden in Dinslaken, Voerde oder Wesel arbeite, tue ich das nicht als anonymes Unternehmen, sondern als jemand, der selbst hier lebt und weiß, was die Menschen von einem Handwerker erwarten: Verlässlichkeit, klare Ansagen und Arbeit, die wirklich hält.
                     </p>
 
                     <p>
-                        Meine Ausbildung zum Maler und Lackierer habe ich in Dinslaken abgeschlossen. Schon früh hat mich fasziniert, wie sehr eine frisch gestrichene Wand einen Raum verwandeln kann – nicht nur optisch, sondern auch in der Atmosphäre, die ein Zuhause ausstrahlt. Nach der Gesellenprüfung habe ich mehrere Jahre auf Baustellen unterschiedlichster Art gearbeitet: in Privathaushalten, in Gewerbeimmobilien, in Neubauprojekten und bei umfangreichen Sanierungen. Diese Breite an Erfahrung war für mich wichtiger als eine frühe Spezialisierung, weil sie mir gezeigt hat, welche Anforderungen in der Praxis wirklich zählen.
+                        Meine Ausbildung zum Maler und Lackierer habe ich in Dinslaken abgeschlossen – danach folgten mehrere Jahre auf Baustellen unterschiedlichster Art: Privathaushalte, Gewerbeimmobilien, Neubauten und Sanierungen. Die Meisterprüfung habe ich mit Auszeichnung abgelegt, weil ich verstehen wollte, warum Techniken funktionieren und wie man Abläufe sauber plant. Im Jahr <?= SITE_FOUNDED ?> habe ich meinen eigenen Betrieb gegründet – mit einer klaren Vorstellung: keine Überbuchung, keine gehetzten Abläufe, sondern Fokus auf jedes einzelne Projekt.
                     </p>
 
                     <p>
-                        Die Entscheidung, die Meisterschule zu besuchen, war für mich keine Frage des Karrieredenkens – sie war die logische Fortsetzung meiner Überzeugung, dass Handwerk nicht nach dem Gesellenbrief aufhört. Ich wollte verstehen, warum bestimmte Techniken funktionieren und andere nicht, warum Materialien unterschiedlich reagieren, und wie man Abläufe so plant, dass am Ende alles zusammenpasst. Die Meisterprüfung habe ich mit Auszeichnung abgelegt.
-                    </p>
-
-                    <p>
-                        Im Jahr <?= SITE_FOUNDED ?> habe ich meinen eigenen Betrieb gegründet. Der Entschluss fiel mir leicht, weil ich von Anfang an eine klare Vorstellung hatte, wie ich arbeiten wollte: keine Überbuchung, keine gehetzten Abläufe, sondern echter Fokus auf jedes einzelne Projekt. Ein Kunde, der mich beauftragt, soll wissen, dass ich persönlich für das Ergebnis stehe – nicht ein anonymes Team, das ich morgen nicht mehr kenne.
-                    </p>
-
-                    <p>
-                        Was mich antreibt, ist nicht das Abarbeiten von Aufträgen, sondern der Moment, wenn ein Kunde das fertige Ergebnis sieht und merkt, dass sein Zuhause wieder stimmt. Dieses Feedback – ob es ein nickendes Lächeln ist oder eine kurze Nachricht ein paar Wochen nach dem Auftrag – ist mein Maßstab. Wenn ich das erreiche, hat meine Arbeit ihren Zweck erfüllt.
-                    </p>
-
-                    <p>
-                        Ich nehme mir die Zeit, jeden Auftrag persönlich zu besichtigen, das Gespräch zu suchen und wirklich zu verstehen, was gebraucht wird. Kein Angebot verlässt meinen Betrieb, ohne dass ich die Situation vor Ort selbst eingeschätzt habe. Das kostet Zeit – aber es ist die einzige Methode, mit der ich ein Ergebnis garantieren kann, hinter dem ich stehe.
+                        Ich nehme mir die Zeit, jeden Auftrag persönlich zu besichtigen und wirklich zu verstehen, was gebraucht wird. Kein Angebot verlässt meinen Betrieb, ohne dass ich die Situation vor Ort selbst eingeschätzt habe.
                     </p>
                 </div>
 
@@ -93,46 +81,28 @@ require_once __DIR__ . '/partials/nav.php';
                 <div class="info-card">
                     <h3>Die Ausbildung zum Meister</h3>
                     <p>
-                        Vor der Meisterprüfung steht eine abgeschlossene Berufsausbildung als Maler und Lackierer sowie
-                        mehrjährige Berufserfahrung. Die Meisterschule selbst umfasst vier Prüfungsteile: fachpraktisches
-                        Können, fachtheoretisches Wissen, kaufmännisch-rechtliche Grundlagen und berufs- und
-                        arbeitspädagogische Eignung. Die Prüfungen werden vor der Handwerkskammer abgelegt und von
-                        unabhängigen Prüfern bewertet. Eine Meisterprüfung dauert in der Vorbereitung und Durchführung
-                        in der Regel zwei bis drei Jahre.
+                        Vier Prüfungsteile vor der Handwerkskammer: fachpraktisches Können, Theorie, kaufmännisch-rechtliche Grundlagen und Pädagogik. Voraussetzung: abgeschlossene Berufsausbildung und mehrjährige Praxis.
                     </p>
                 </div>
 
                 <div class="info-card">
                     <h3>Rechtliche Eintragungspflicht</h3>
                     <p>
-                        In Deutschland ist das Malerhandwerk ein zulassungspflichtiges Handwerk. Das bedeutet: Wer
-                        einen Meisterbetrieb führen will, muss in der Handwerksrolle eingetragen sein. Voraussetzung
-                        dafür ist in der Regel die Meisterprüfung oder eine gleichwertig anerkannte Qualifikation.
-                        Betriebe ohne diese Eintragung dürfen handwerkliche Maler- und Lackiererarbeiten nicht selbstständig
-                        ausführen. Die Eintragung schützt Sie als Auftraggeber – sie ist ein gesetzlich geregeltes
-                        Qualitätsmerkmal, keine freiwillige Auszeichnung.
+                        Das Malerhandwerk ist zulassungspflichtig – nur mit Meisterprüfung und Eintragung in der Handwerksrolle darf ein Betrieb selbstständig arbeiten. Diese Eintragung ist ein gesetzliches Qualitätsmerkmal.
                     </p>
                 </div>
 
                 <div class="info-card">
                     <h3>Ausbildungsberechtigung</h3>
                     <p>
-                        Ein Meisterbetrieb ist berechtigt, Lehrlinge auszubilden. Das setzt voraus, dass der Meister
-                        nicht nur selbst sein Handwerk beherrscht, sondern auch in der Lage ist, Wissen systematisch
-                        weiterzugeben. Die berufs- und arbeitspädagogische Eignung ist fester Bestandteil der
-                        Meisterprüfung. Dahinter steckt der Gedanke, dass die Qualität eines Handwerks nur dann
-                        langfristig gesichert ist, wenn gut ausgebildete Fachkräfte nachkommen.
+                        Ein Meisterbetrieb darf Lehrlinge ausbilden. Die pädagogische Eignung ist fester Bestandteil der Meisterprüfung – damit die Qualität des Handwerks langfristig gesichert bleibt.
                     </p>
                 </div>
 
                 <div class="info-card">
                     <h3>Qualitätsversprechen in der Praxis</h3>
                     <p>
-                        Für Sie als Auftraggeber bedeutet ein Meisterbetrieb in erster Linie: Ihr Ansprechpartner
-                        kennt sein Handwerk nicht nur aus der Praxis, sondern hat es unter Prüfungsbedingungen
-                        nachgewiesen. Er trägt die volle Verantwortung für Planung, Ausführung und Material. Fehler
-                        gehen nicht auf Unterauftragnehmer zurück, die keine Garantie übernehmen. Der Meister steht
-                        persönlich dafür ein – mit seinem Namen und seinem Betrieb.
+                        Ihr Ansprechpartner hat sein Können unter Prüfungsbedingungen nachgewiesen und steht persönlich für Planung, Ausführung und Material ein – mit seinem Namen und seinem Betrieb.
                     </p>
                 </div>
 
@@ -163,10 +133,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <div>
                         <h3 class="feature-item__title">Persönliche Betreuung</h3>
                         <p class="feature-item__text">
-                            Jeder Auftrag wird von mir persönlich betreut – von der ersten Besichtigung über die
-                            Ausführung bis zur Übergabe. Sie haben immer denselben Ansprechpartner und müssen
-                            Ihr Anliegen nicht mehrfach erklären. Wenn ich etwas zusage, dann halte ich es auch.
-                            Das ist für mich nicht verhandelbar.
+                            Jeder Auftrag wird von mir persönlich betreut – von der Besichtigung bis zur Übergabe. Sie haben immer denselben Ansprechpartner.
                         </p>
                     </div>
                 </article>
@@ -181,10 +148,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <div>
                         <h3 class="feature-item__title">Ehrlichkeit und Transparenz</h3>
                         <p class="feature-item__text">
-                            Ich sage Ihnen, was ich sehe – auch wenn es nicht das ist, was Sie hören möchten.
-                            Wenn ein Untergrund mehr Vorbereitung braucht als erwartet, erfahren Sie das vor Beginn
-                            der Arbeiten, nicht als Nachtrag auf der Rechnung. Mein Angebot enthält alle Positionen
-                            offen und nachvollziehbar. Versteckte Kosten gibt es bei mir nicht.
+                            Wenn ein Untergrund mehr Vorbereitung braucht, erfahren Sie das vor Beginn der Arbeiten – nicht als Nachtrag auf der Rechnung. Versteckte Kosten gibt es bei mir nicht.
                         </p>
                     </div>
                 </article>
@@ -200,10 +164,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <div>
                         <h3 class="feature-item__title">Handwerk vor Quantität</h3>
                         <p class="feature-item__text">
-                            Ich nehme bewusst nicht mehr Aufträge an, als ich mit Sorgfalt ausführen kann. Lieber
-                            weniger Projekte, dafür jedes mit dem Anspruch, den mein Handwerk verdient. Gute
-                            Malerarbeit ist keine Massenware. Sie erfordert Zeit, Konzentration und das richtige
-                            Material – und das bekommt jeder meiner Kunden, unabhängig von der Auftragsgröße.
+                            Bewusst weniger Projekte, dafür jedes mit dem Anspruch, den gutes Handwerk verdient. Zeit, Konzentration und das richtige Material – für jeden Kunden.
                         </p>
                     </div>
                 </article>
@@ -218,10 +179,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <div>
                         <h3 class="feature-item__title">Regionale Verbundenheit</h3>
                         <p class="feature-item__text">
-                            Dinslaken und die Region am Niederrhein sind meine Heimat. Ich kenne die Häuser hier,
-                            die typischen Baumaterialien, die lokalen Gegebenheiten. Kurze Wege bedeuten schnelle
-                            Reaktionszeiten und keine versteckten Anfahrtskosten. Und: Wenn ich für jemanden hier
-                            gearbeitet habe, begegnen wir uns auf dem Marktplatz. Das verpflichtet.
+                            Dinslaken und der Niederrhein sind meine Heimat. Kurze Wege bedeuten schnelle Reaktion und keine Anfahrtskosten.
                         </p>
                     </div>
                 </article>

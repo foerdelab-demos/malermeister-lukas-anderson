@@ -32,25 +32,13 @@ require_once __DIR__ . '/partials/nav.php';
             <div class="service-page-layout">
                 <article class="prose">
 
-                    <p>Die Fassade ist das Gesicht eines Gebäudes – der erste Eindruck für Besucher, Nachbarn und Passanten. Doch die optische Wirkung ist nur eine Seite: Primär hat eine intakte Fassade die Aufgabe, das Gebäude vor Witterungseinflüssen zu schützen. Regen dringt in rissigen Putz ein, gefriert im Winter und dehnt den Riss weiter aus. Algen und Moos halten Feuchtigkeit fest und beschleunigen diesen Prozess. Was als kleiner Haarriss beginnt, kann in wenigen Jahren zu erheblichen Putzschäden führen, die deutlich teurer zu beheben sind als eine rechtzeitige Renovierung.</p>
+                    <p>Eine intakte Fassade schützt Ihr Gebäude vor Witterung – Regen dringt in rissigen Putz ein, gefriert im Winter und weitet den Schaden aus. Was als Haarriss beginnt, kann in wenigen Jahren zu erheblichen Putzschäden führen. Eine rechtzeitige Renovierung ist daher nicht nur gestalterisch, sondern auch wirtschaftlich sinnvoll.</p>
 
-                    <p>Im Raum Dinslaken und in ganz NRW ist das Klima feucht und durch häufige Frost-Tau-Wechsel geprägt. Fassaden werden hier stärker beansprucht als in trockeneren Regionen. Eine regelmäßig gepflegte und fachgerecht beschichtete Fassade verlängert die Lebensdauer des Außenputzes erheblich und erhält den Wert der Immobilie langfristig. Die Entscheidung für eine Fassadenrenovierung ist damit nicht nur eine gestalterische, sondern auch eine wirtschaftliche.</p>
+                    <h2>Unser Vorgehen</h2>
 
-                    <h2>Fassadenanalyse – zuerst hinschauen, dann arbeiten</h2>
-
-                    <p>Jede Fassadenrenovierung beginnt bei uns mit einer gründlichen Bestandsaufnahme. Wir schauen uns die Fassade systematisch an: Wo gibt es Risse im Putz, und wie tief sind sie? Gibt es Ausblühungen – weiße Salzablagerungen, die auf Feuchtigkeitsbewegungen im Mauerwerk hindeuten? Wie stark ist der Algen- und Moosbefall? Haftet der bestehende Anstrich noch, oder gibt es abplatzende und hohlliegende Stellen?</p>
-
-                    <p>Für die Feuchtigkeitsmessung nutzen wir geeignete Messgeräte, da Farbe auf feuchtem Untergrund keine dauerhaft haltbare Verbindung eingeht und eine Renovierung in diesem Zustand schnell ihr Geld nicht wert wäre. Wo rein kosmetische Maßnahmen nicht ausreichen – etwa bei strukturellen Rissen oder steigendem Mauerfeuchte – weisen wir Sie auf den Handlungsbedarf hin und empfehlen, andere Fachbetriebe hinzuzuziehen. Eine ehrliche Einschätzung am Anfang schützt Sie vor einer Renovierung, die nur wenige Jahre hält.</p>
-
-                    <h2>Algen und Moos auf der Fassade</h2>
-
-                    <p>Algen- und Moosbefall auf Fassaden ist in NRW besonders verbreitet, weil das feuchte Klima optimale Bedingungen für das Wachstum dieser Organismen bietet. Schattige Fassadenseiten, die nicht abtrocknen können, sind besonders anfällig. Wer Algen einfach übermalt, ohne sie zuvor zu behandeln, stellt fest, dass der Befall nach kurzer Zeit wieder durchschlägt – oft noch stärker als zuvor, da das neue Material ebenfalls als Nährstoffquelle dient.</p>
-
-                    <p>Der richtige Weg: Zuerst werden alle sichtbaren Bewüchse mechanisch abgebürstet. Dann wird ein biozides Vorbehandlungsmittel (Algenentferner auf Basis geeigneter Wirkstoffe) aufgetragen und muss die vom Hersteller vorgegebene Einwirkzeit abwarten – das können mehrere Stunden oder Tage sein. Erst danach kann mit den eigentlichen Putz- und Anstricharbeiten begonnen werden. Bei stark befallenen Fassaden empfehlen wir zudem den Einsatz von Fassadenfarben mit fungizidem Zusatz, die einem erneuten Bewuchs entgegenwirken.</p>
+                    <p>Jede Fassadenrenovierung beginnt mit einer gründlichen Bestandsaufnahme: Risse, Ausblühungen, Algen- und Moosbefall, Haftverlust des alten Anstrichs. Wir messen die Restfeuchte im Mauerwerk und geben Ihnen eine ehrliche Einschätzung, ob eine Renovierung ausreicht oder ob Vorarbeiten nötig sind.</p>
 
                     <h2>Fassadenfarben und Beschichtungssysteme</h2>
-
-                    <p>Die Auswahl des richtigen Beschichtungssystems hängt vom Untergrund, den klimatischen Bedingungen und den Anforderungen an Diffusionsoffenheit und Witterungsbeständigkeit ab. Nicht jede Farbe passt auf jeden Untergrund, und nicht jedes System ist für jede Lage geeignet.</p>
 
                     <ul class="checklist">
                         <li>Silikonharzfarben (beste Witterungsbeständigkeit, wasserabweisend)</li>
@@ -60,29 +48,36 @@ require_once __DIR__ . '/partials/nav.php';
                         <li>Wärmedämmputze (zusätzlicher Dämmwert)</li>
                     </ul>
 
-                    <h2>Farbberatung für die Fassade</h2>
-
-                    <p>Die Farbwahl für eine Fassade ist anspruchsvoller als die für einen Innenraum, weil die Fläche viel größer ist und die Farbe im Außenlicht wirkt – also unter wechselnden Lichtverhältnissen, Sonneneinstrahlung und bedecktem Himmel. Eine Farbe, die auf dem kleinen Musterkärtchen zurückhaltend wirkt, kann auf einer zwanzig Quadratmeter großen Fassadenfläche deutlich dominanter erscheinen. Wir warnen immer vor diesem Skalierungseffekt und empfehlen, einen großzügigen Probestrich vor der endgültigen Entscheidung anzubringen.</p>
-
-                    <p>In manchen Fällen gibt es Regelungen durch Wohnungseigentümergemeinschaften oder lokale Gestaltungssatzungen, die die Farbwahl einschränken. Wir weisen Sie darauf hin, falls das für Ihr Objekt relevant sein könnte. Bei der Beratung arbeiten wir mit Farbfächern der jeweiligen Systemhersteller und stimmen die Fassadenfarbe auf Dachziegel, Fensterrahmen und Zierteile ab, damit das Gesamtbild stimmig wirkt.</p>
-
-                    <h2>Fassadenrenovierung und Werterhalt</h2>
-
-                    <p>Eine Fassadenrenovierung alle zehn bis fünfzehn Jahre ist keine Luxusentscheidung, sondern normaler Bauunterhalt. Wer diesen Rhythmus einhält, fängt kleine Schäden früh ab und verhindert, dass aus einem Haarriss ein strukturelles Problem wird. Die Kosten einer regelmäßigen Pflege sind erfahrungsgemäß deutlich geringer als die Kosten einer aufgeschobenen Sanierung, bei der Putz großflächig erneuert werden muss.</p>
-
-                    <p>Wir dokumentieren unsere Arbeiten mit Fotos – vor Beginn und nach Abschluss – und stellen Ihnen diese Dokumentation zur Verfügung. Das ist hilfreich für Versicherungsfragen und für die Planung künftiger Renovierungszyklen. Auf Wunsch führen wir auch Teilrenovierungen durch, wenn etwa nur die nach Norden oder Westen ausgerichtete Fassadenseite besonders stark verwittert ist und priorisiert behandelt werden soll.</p>
-
-                    <h2>Fassadengestaltung in Dinslaken und Umgebung</h2>
-
-                    <p>Wir führen Fassadenarbeiten in Dinslaken, Voerde, Hünxe und Wesel aus. Die meisten unserer Fassadenaufträge kommen von Eigentümern von Ein- und Zweifamilienhäusern sowie Mehrfamilienhäusern, bei denen ein Renovierungszyklus fällig ist. Auch Verwaltungen und gewerbliche Eigentümer, die ihre Gebäude in einem gepflegten Zustand halten möchten, beauftragen uns regelmäßig. Ein persönlicher Termin zur Besichtigung ist bei Fassadenarbeiten immer notwendig – ein Angebot aus der Ferne ist ohne genaue Kenntnis der Fassadenbeschaffenheit nicht seriös möglich.</p>
+                    <p>Die Farbwahl stimmen wir mit Farbfächern der Systemhersteller auf Dachziegel, Fensterrahmen und Zierteile ab. Wir empfehlen immer einen großzügigen Probestrich – Farben wirken auf großen Fassadenflächen deutlich intensiver als auf dem Musterkärtchen.</p>
 
                     <h2>Häufige Fragen</h2>
 
-                    <h3>Was kostet eine Fassadenrenovierung?</h3>
-                    <p>Das hängt von der Fassadengröße, dem Zustand des Untergrunds, dem gewählten Beschichtungssystem und dem Aufwand für Vorbereitungsarbeiten wie Algenbehandlung oder Putzausbesserungen ab. Eine pauschale Aussage ist seriöserweise nicht möglich. Wir bieten eine kostenlose Besichtigung und ein detailliertes Angebot an, aus dem hervorgeht, welche Leistungen enthalten sind und was der Preis beinhaltet.</p>
-
-                    <h3>Muss ich Gerüstkosten extra bezahlen?</h3>
-                    <p>Wo ein Gerüst notwendig ist, organisieren wir es als Teil des Auftrags und weisen die Kosten transparent im Angebot aus. Bei kleineren Arbeiten an niedrigen Fassaden oder Erdgeschossbereichen kommen wir mit Leitern und Arbeitspodesten aus. Das klären wir bei der Besichtigung und planen entsprechend – ohne versteckte Nachträge nach Auftragserteilung.</p>
+                    <div class="faq-list">
+                        <details class="faq-item">
+                            <summary>Was kostet eine Fassadenrenovierung?</summary>
+                            <div class="faq-item__body">
+                                <p>Das hängt von Fassadengröße, Untergrund, Beschichtungssystem und Vorarbeiten ab. Wir bieten eine kostenlose Besichtigung und ein detailliertes Angebot an.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Muss ich Gerüstkosten extra bezahlen?</summary>
+                            <div class="faq-item__body">
+                                <p>Wo ein Gerüst nötig ist, organisieren wir es als Teil des Auftrags und weisen die Kosten transparent im Angebot aus. Bei niedrigen Fassaden kommen wir mit Leitern aus.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Was tun bei Algen und Moos auf der Fassade?</summary>
+                            <div class="faq-item__body">
+                                <p>Einfach überstreichen hilft nicht – der Befall schlägt durch. Wir entfernen Bewüchse mechanisch, behandeln mit einem bioziden Vorbehandlungsmittel und verwenden bei starkem Befall Farben mit fungizidem Zusatz.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Wie oft sollte eine Fassade renoviert werden?</summary>
+                            <div class="faq-item__body">
+                                <p>Alle zehn bis fünfzehn Jahre – das ist normaler Bauunterhalt. Regelmäßige Pflege fängt kleine Schäden früh ab und ist deutlich günstiger als eine aufgeschobene Sanierung.</p>
+                            </div>
+                        </details>
+                    </div>
 
                 </article>
 

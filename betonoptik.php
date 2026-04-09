@@ -32,19 +32,9 @@ require_once __DIR__ . '/partials/nav.php';
             <div class="service-page-layout">
                 <article class="prose">
 
-                    <p>Betonoptik ist kein echter Beton – sondern eine mineralische Beschichtung, die den Charakter von Sichtbeton erzeugt, ohne dessen strukturelle und bauphysikalische Anforderungen mitzubringen. Das bedeutet: Die Betonoptik kann auf nahezu jedem tragfähigen Untergrund aufgetragen werden – auf Gipskarton, Kalksandstein, bestehenden Putzflächen und sogar auf Fliesen. Das macht sie zu einer Gestaltungsmöglichkeit, die in der Sanierung und Renovierung weit mehr Spielraum bietet als echter Beton, der nur dort entsteht, wo er gegossen wurde.</p>
-
-                    <p>Ihren Aufstieg verdankt die Betonoptik der Popularität des Industrial Design: Loft-Ästhetik, klare Formen, Materialehrlichkeit. Was in Berliner Fabriketagen als architektonisches Erbe entdeckt wurde, hat längst den Einzug in Wohnzimmer, Küchen, Büros und Gastronomie gehalten. Die Betonoptik-Beschichtung erlaubt es, diesen Look gezielt einzusetzen – als Akzentwand, als vollflächige Raumgestaltung oder als Bodenbelag – und dabei Farbe und Textur individuell abzustimmen. Grau ist dabei nur ein Ausgangspunkt; Betonoptik ist auch in Beige, Anthrazit, Khaki und anderen Tönen realisierbar.</p>
-
-                    <h2>Was ist Betonoptik genau?</h2>
-
-                    <p>Die Basis moderner Betonoptik-Systeme bildet eine mineralische Spachtelmasse auf Zement- oder Kunstharzbasis – je nach Hersteller als Mikrozement oder Betonspachtel bezeichnet. Bekannte Produkte sind etwa Capadecor BetonOptik von Caparol oder vergleichbare Systeme von Brillux. Diese Massen werden in mehreren sehr dünnen Schichten mit einem Japanspachtel – einem flexiblen Edelstahlspachtel – aufgetragen. Jede Lage trocknet, bevor die nächste aufgebracht wird, und wird zwischendurch fein angeschliffen, um eine gleichmäßige Haftung und Oberfläche zu gewährleisten.</p>
-
-                    <p>Das Erscheinungsbild entsteht durch die Arbeitsweise: Die Spuren des Spatels, leichte Überlagerungen der Schichten und die Körnung der Masse erzeugen die typische unregelmäßige Textur, die an echten Sichtbeton erinnert. Kein Ergebnis gleicht dem anderen – jede Betonoptik-Fläche ist ein Unikat. Abschließend wird die fertige Oberfläche mit zwei bis drei Lagen einer Polyurethan- oder Epoxidharz-Versiegelung versiegelt. Diese Versiegelung schützt die Oberfläche vor Feuchtigkeit, Abrieb und Verschmutzung und ist Voraussetzung für den Einsatz in Feuchträumen oder auf Böden.</p>
+                    <p>Betonoptik ist keine echte Betonwand – sondern eine mineralische Beschichtung, die den Charakter von Sichtbeton erzeugt. Sie lässt sich auf nahezu jedem tragfähigen Untergrund auftragen – Gipskarton, Putz, sogar Fliesen. Farbe und Textur sind individuell abstimmbar: Grau ist nur ein Ausgangspunkt; Betonoptik ist auch in Beige, Anthrazit oder Khaki realisierbar.</p>
 
                     <h2>Wo kann Betonoptik eingesetzt werden?</h2>
-
-                    <p>Die Einsatzmöglichkeiten sind breiter, als viele zunächst annehmen. Von der Wohnzimmerwand bis zum Ladenboden bietet die Betonoptik eine Lösung für viele Anwendungsbereiche – sofern der Untergrund entsprechend vorbereitet wird und die richtige Versiegelung gewählt wird.</p>
 
                     <ul class="checklist">
                         <li>Wohnzimmerwände als Akzentfläche</li>
@@ -55,52 +45,56 @@ require_once __DIR__ . '/partials/nav.php';
                         <li>Ladenflächen, Büros, Gastronomie</li>
                     </ul>
 
-                    <h2>Der Verarbeitungsprozess – so entsteht die Betonoptik</h2>
-
-                    <p>Die Betonoptik erfordert mehrere aufeinanderfolgende Arbeitstage, da jede Schicht vollständig durchtrocknen muss, bevor die nächste aufgebracht werden kann. Das Ergebnis hängt direkt von der Sorgfalt in jedem einzelnen Schritt ab – abgekürzte Trocknungszeiten oder überspringene Schichten führen zu Haftproblemen und einer Oberfläche, die früher als erwartet versagt.</p>
+                    <h2>Der Verarbeitungsprozess</h2>
 
                     <ol class="process-steps">
                         <li class="process-step">
-                            <strong>Untergrundvorbereitung:</strong> Der Untergrund muss tragfähig, sauber und trocken sein. Lose Stellen, Risse und Unebenheiten werden behoben. Anschließend wird ein geeigneter Haftvermittler aufgetragen, der die Verbindung zwischen dem bestehenden Untergrund und der Betonoptik-Masse sicherstellt. Ohne diesen Schritt riskiert man Ablösungen.
+                            <strong>Untergrundvorbereitung:</strong> Der Untergrund muss tragfähig, sauber und trocken sein. Ein Haftvermittler sichert die Verbindung zur Betonoptik-Masse.
                         </li>
                         <li class="process-step">
-                            <strong>Grundschicht:</strong> Die erste Lage der Spachtelmasse wird dünn und gleichmäßig mit dem Japanspachtel aufgetragen. Nach vollständiger Trocknung wird die Oberfläche leicht angeschliffen und abgestaubt. Diese Schicht schließt kleinere Poren und schafft eine gleichmäßige Haftfläche für die folgenden Lagen.
+                            <strong>Grundschicht:</strong> Erste Lage dünn mit dem Japanspachtel auftragen. Nach Trocknung leicht anschleifen – diese Schicht schafft die Haftfläche.
                         </li>
                         <li class="process-step">
-                            <strong>Deckschicht und Feinarbeit:</strong> Die zweite – und bei Bedarf dritte – Lage wird dünner aufgetragen als die erste. In dieser Phase entsteht die charakteristische Textur: Die Bewegungsführung des Spatels, die Schichtüberlagerungen und die Körnung der Masse erzeugen das typische Betonbild. Hier liegt der handwerkliche Kern der Arbeit.
+                            <strong>Deckschicht:</strong> Die zweite und dritte Lage erzeugen die charakteristische Textur. Die Bewegungsführung des Spatels schafft das typische Betonbild – jede Fläche wird zum Unikat.
                         </li>
                         <li class="process-step">
-                            <strong>Versiegelung:</strong> Nach dem abschließenden Feinschliff werden zwei bis drei Lagen Versiegelung aufgetragen. Für Wände in trockenen Räumen genügt ein wasserbasierter Polyurethanlack. Für Böden und Feuchträume verwenden wir stärkere Versiegelungen mit höherer Abriebfestigkeit und Wasserbeständigkeit. Die Versiegelung bestimmt den Glanzgrad – von matt bis hochglanz.
+                            <strong>Versiegelung:</strong> Zwei bis drei Lagen Versiegelung schützen vor Feuchtigkeit und Abrieb. Für Böden und Feuchträume verwenden wir stärkere Systeme.
                         </li>
                     </ol>
 
-                    <h2>Vorteile der Betonoptik gegenüber echtem Beton</h2>
-
-                    <p>Betonoptik bietet gegenüber echtem Sichtbeton eine Reihe praktischer Vorteile, die sie für die Sanierung und Neugestaltung von Bestandsgebäuden besonders geeignet macht.</p>
+                    <h2>Vorteile gegenüber echtem Beton</h2>
 
                     <ul class="checklist">
                         <li>Geringes Eigengewicht – keine zusätzliche statische Belastung</li>
                         <li>Fugenlos – keine Schmutzfugen wie bei Fliesen</li>
                         <li>Auf bestehenden Untergründen anwendbar</li>
-                        <li>Viele Farbnuancen möglich (nicht nur Grau)</li>
+                        <li>Viele Farbnuancen möglich</li>
                         <li>Reparaturfähig bei lokalen Beschädigungen</li>
-                        <li>Hygienisch und leicht zu reinigen (nach Versiegelung)</li>
+                        <li>Hygienisch und leicht zu reinigen</li>
                     </ul>
 
-                    <h2>Betonoptik in Dinslaken und Umgebung</h2>
+                    <h2>Häufige Fragen</h2>
 
-                    <p>Wir führen Betonoptik-Beschichtungen in Dinslaken und den umliegenden Städten – Voerde, Hünxe, Wesel, Oberhausen und Duisburg – sowohl für private Auftraggeber als auch für Gewerbekunden aus. Ob Akzentwand im Wohnzimmer, fugenloses Badezimmer oder Thekenfläche in einem Café – wir beraten Sie zur richtigen Materialwahl und führen die Arbeit sorgfältig und ohne Zeitdruck aus. Ein persönliches Beratungsgespräch mit Materialproben ist bei uns Standard.</p>
-
-                    <h2>Häufige Fragen zur Betonoptik</h2>
-
-                    <h3>Wie lange hält die Betonoptik?</h3>
-                    <p>Mit einer fachgerecht aufgetragenen Versiegelung und pfleglichem Umgang hält eine Betonoptik-Beschichtung problemlos zehn bis fünfzehn Jahre, in manchen Fällen deutlich länger. Böden unterliegen durch Begehung stärkerem Verschleiß als Wände; hier empfehlen wir eine stärkere Versiegelung und ggf. eine Nachversiegelung nach einigen Jahren. Wände in trockenen Wohnräumen sind deutlich weniger belastet und halten entsprechend länger ohne Pflege aus.</p>
-
-                    <h3>Kann Betonoptik im Badezimmer verwendet werden?</h3>
-                    <p>Ja, vorausgesetzt, es wird eine Feuchtraumversiegelung verwendet, die für den dauerhaften Kontakt mit Wasser geeignet ist. Wir wählen für Badezimmer gezielt Versiegelungen aus, die auch im Bereich der Dusche oder Badewanne dauerhaft wasserdicht bleiben. Die Untergrundvorbereitung ist dabei besonders wichtig – die dahinterliegenden Schichten müssen ebenfalls feuchtigkeitsresistent sein.</p>
-
-                    <h3>Ist Betonoptik auf Fliesen möglich?</h3>
-                    <p>Ja, das ist möglich, sofern die Fliesen fest im Untergrund verankert sind und keine losen Stellen aufweisen. Die Fliesenoberfläche wird angeschliffen, um die Haftung des Haftvermittlers zu verbessern. Die Fugen der Fliesen können durch die Betonoptik-Beschichtung egalisiert werden, sofern die Schichtdicke ausreichend ist. Wir prüfen die Eignung des Fliesenuntergrunds bei der Besichtigung und informieren Sie ehrlich, ob eine direkte Beschichtung möglich ist oder ob Vorarbeiten notwendig sind.</p>
+                    <div class="faq-list">
+                        <details class="faq-item">
+                            <summary>Wie lange hält die Betonoptik?</summary>
+                            <div class="faq-item__body">
+                                <p>Mit fachgerechter Versiegelung zehn bis fünfzehn Jahre, oft länger. Böden unterliegen stärkerem Verschleiß – hier empfehlen wir ggf. eine Nachversiegelung nach einigen Jahren.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Kann Betonoptik im Badezimmer verwendet werden?</summary>
+                            <div class="faq-item__body">
+                                <p>Ja, mit Feuchtraumversiegelung. Wir wählen Versiegelungen, die auch im Duschbereich dauerhaft wasserdicht bleiben.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Ist Betonoptik auf Fliesen möglich?</summary>
+                            <div class="faq-item__body">
+                                <p>Ja, sofern die Fliesen fest verankert sind. Die Fliesenoberfläche wird angeschliffen und die Fugen durch die Beschichtung egalisiert. Wir prüfen die Eignung bei der Besichtigung.</p>
+                            </div>
+                        </details>
+                    </div>
 
                 </article>
 

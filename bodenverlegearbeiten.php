@@ -32,50 +32,48 @@ require_once __DIR__ . '/partials/nav.php';
             <div class="service-page-layout">
                 <article class="prose">
 
-                    <p>Bodenverlegearbeiten gehören zum traditionellen Leistungsumfang des Malerhandwerks in Deutschland. Wer ein Zimmer streicht und tapeziert, möchte häufig gleichzeitig den Boden erneuern – und es macht wenig Sinn, dafür einen dritten Betrieb ins Haus zu holen, wenn Maler und Bodenleger ohnehin im selben Raum aufeinander folgen müssen. Als Meisterbetrieb führen wir Bodenverlegearbeiten als vollintegrierte Leistung aus, die sich nahtlos in größere Renovierungsvorhaben einfügt.</p>
-
-                    <p>Ein neuer Bodenbelag verändert einen Raum stärker als fast jede andere Maßnahme. Helles Laminat lässt kleine Räume größer wirken. Ein dunkler, warmer Vinylboden gibt einem Wohnzimmer Erdung. Teppich im Schlafzimmer reduziert Trittschall und macht den Raum morgens unter den Füßen angenehm warm. Die Auswahl des richtigen Belags ist deshalb keine rein technische Frage, sondern auch eine des Raumgefühls – und dabei beraten wir gerne.</p>
+                    <p>Wer ein Zimmer streichen und tapezieren lässt, möchte oft gleichzeitig den Boden erneuern. Als Meisterbetrieb führen wir Bodenverlegearbeiten als vollintegrierte Leistung aus – nahtlos eingebettet in größere Renovierungsvorhaben, ohne Koordination mit einem zweiten Betrieb.</p>
 
                     <h2>Welche Bodenbeläge verlegen wir?</h2>
 
                     <h3>Laminat</h3>
-                    <p>Laminat besteht aus einer HDF-Trägerplatte, einer bedruckten Dekorschicht und einer transparenten Nutzschicht. Moderne Laminatböden werden als Klicksystem verlegt – die Dielen rasten ohne Kleber zusammen und schwimmen auf einer Trittschalldämmung, die gleichzeitig Unebenheiten im Untergrund ausgleicht und den Gehschall deutlich reduziert. Die Abriebklasse (AC-Klasse) bestimmt die Widerstandsfähigkeit der Nutzschicht: AC3 ist für Wohnräume ausreichend, AC4 und AC5 eignen sich für stärker beanspruchte Bereiche oder gewerbliche Nutzung. Wir empfehlen immer die zum Verwendungszweck passende Klasse – weder zu stark dimensioniert noch zu schwach.</p>
+                    <p>Moderne Klicksysteme auf Trittschalldämmung – schwimmend verlegt, ohne Kleber. Wir wählen die passende Abriebklasse (AC3 für Wohnräume, AC4/AC5 für stärker beanspruchte Bereiche).</p>
 
-                    <h3>Vinyl und LVT (Luxury Vinyl Tile)</h3>
-                    <p>Moderne Vinyl- und LVT-Böden haben mit altem PVC-Belag wenig gemeinsam. Die starke Nutzschicht, originalgetreue Holz- und Steinoptiken und – in der SPC-Variante (Rigid Core) – eine starre Kernlage machen sie zu einem der vielseitigsten Bodenbeläge auf dem Markt. LVT-Böden sind in aller Regel vollständig wasserabweisend, was sie für Küchen und Bäder geeignet macht, wo Laminat durch Feuchtigkeitseintritt quellen würde. Je nach Produkt werden sie als schwimmende Variante oder im Klebeverfahren verlegt; wir wählen die Methode nach Untergrundeignung und Einsatzbereich.</p>
+                    <h3>Vinyl und LVT</h3>
+                    <p>Vollständig wasserabweisend und daher ideal für Küchen und Bäder. Je nach Produkt schwimmend oder verklebt – wir wählen die Methode nach Untergrund und Einsatzbereich.</p>
 
                     <h3>Kork</h3>
-                    <p>Kork ist ein natürlicher Rohstoff mit ausgezeichneten wärmedämmenden und schallabsorbierenden Eigenschaften – unter den Füßen angenehm warm, leise beim Begehen und in seiner Herstellung ressourcenschonend, da Korkeichenrinde ohne Fällen des Baums gewonnen wird. Kork als Klebe-Fliese oder als Kork-Laminat ermöglicht unterschiedliche Verlege- und Reparaturkonzepte. Da Kork feuchtigkeitsempfindlich ist, muss der Belag nach dem Verlegen mit einem geeigneten Versiegelungsmittel behandelt werden, um Wassereintritte z.B. beim Wischen zu verhindern.</p>
+                    <p>Natürlich, wärmedämmend und schallabsorbierend. Als Klebe-Fliese oder Kork-Laminat erhältlich. Muss nach dem Verlegen versiegelt werden, da Kork feuchtigkeitsempfindlich ist.</p>
 
                     <h3>Teppichböden</h3>
-                    <p>Teppichboden ist im Schlafzimmer und in Kinderzimmern weiterhin gefragt: Er ist weich unter den Füßen, reduziert Trittschall und Nachhall und sorgt im Winter für angenehme Wärme. Wir verlegen sowohl Schlingen- als auch Velours-Teppiche in Strichware, befestigen mit Greiferleisten (Tacker-Leisten) und strecken den Belag spannungsfrei aus – eine Technik, die Faltenbildung langfristig verhindert. Auch gewerbliche Nadelvliesteppiche für Büros und Praxen verlegen wir im Klebeverfahren.</p>
+                    <p>Weich, trittschalldämpfend und im Winter angenehm warm. Wir verlegen Schlingen- und Velours-Teppiche spannungsfrei mit Greiferleisten – eine Technik, die Faltenbildung langfristig verhindert.</p>
 
-                    <h2>Untergrundvorbereitung – die halbe Arbeit</h2>
+                    <h2>Untergrundvorbereitung</h2>
 
-                    <p>Der Untergrund ist die Grundlage für jeden Bodenbelag – im wortwörtlichen Sinn. Er muss drei Grundbedingungen erfüllen: eben, trocken und tragfähig. Die DIN-Norm für schwimmend verlegte Bodenbeläge erlaubt eine maximale Unebenheit von drei Millimetern auf zwei Metern Messlänge. Wer diese Vorgabe ignoriert, riskiert knarrende Dielen, sich hebende Kanten und Beschädigungen an den Klickprofilen. Wir prüfen die Ebenheit mit einer zwei Meter langen Richtlatte und gleichen Höhenunterschiede mit einer selbstverlaufenden Ausgleichsmasse an, bevor der Belag aufgebracht wird.</p>
-
-                    <p>Die Restfeuchte des Estrichs ist ein kritischer Faktor, der von vielen Heimwerkern unterschätzt wird. Zu feuchter Untergrund führt bei Holz- und Holzwerkstoff-Böden unweigerlich zu Quellen und Aufwölbungen. Wir messen die Feuchte des Untergrunds mit einem CM-Gerät (Calciumcarbid-Methode), das zuverlässigere Ergebnisse liefert als einfache Oberflächenmessungen. Erst wenn die Werte im zulässigen Bereich liegen, beginnen wir mit der Verlegung. Alte Kleberreste, Bitumenschichten oder losen Estrichteile werden vorab entfernt, damit der neue Belag auf einem sauberen, stabilen Untergrund aufliegt.</p>
-
-                    <h2>Abschlussleisten, Übergänge und Details</h2>
-
-                    <p>Die handwerkliche Qualität einer Bodenverlegung zeigt sich oft in den Details: in der Sockelleiste, die sauber in der Ecke auf Gehrung geschnitten ist, im Übergangsprofil, das zwei verschiedene Bodenbeläge sauber und sturzsicher verbindet, und in der gleichmäßigen Dehnungsfuge am Rand des Raums, die verhindert, dass das Laminat oder der Korkboden im Sommer bei Wärmeausdehnung aufwölbt.</p>
-
-                    <p>Sockelleisten befestigen wir klebend oder mit verdeckten Clips – sichtbare Nägel und Schrauben sind bei uns nicht zu finden. Die Leisten werden auf Gehrung geschnitten und an Außenecken exakt auf 45 Grad abgewinkelt. Übergangsprofile zwischen verschiedenen Räumen oder Belagshöhen werden so ausgewählt, dass sie funktional und optisch zum jeweiligen Belag passen. Diese Abschlussarbeiten gehören für uns selbstverständlich zum Leistungsumfang und werden nicht als Zusatz berechnet.</p>
-
-                    <h2>Bodenverlegearbeiten in Dinslaken</h2>
-
-                    <p>In Dinslaken und dem umliegenden Gebiet – Voerde, Hünxe, Wesel, Oberhausen – verlegen wir Bodenbeläge in Wohnungen, Einfamilienhäusern und Gewerbeflächen. Besonders häufig führen wir Bodenverlegung im Zuge einer Gesamtrenovierung aus, bei der gleichzeitig Wände gestrichen und Tapeten gewechselt werden – das minimiert Aufwand und Koordinationsbedarf für den Auftraggeber. Bei größeren Objekten planen wir Raumfolge und Materialpuffer im Vorfeld, damit keine Verzögerungen durch fehlendes Material entstehen.</p>
+                    <p>Der Untergrund muss eben, trocken und tragfähig sein. Wir prüfen die Ebenheit mit der Richtlatte (max. 3 mm auf 2 m laut DIN) und gleichen Unebenheiten mit selbstverlaufender Ausgleichsmasse an. Die Restfeuchte messen wir mit der CM-Methode – erst bei zulässigen Werten beginnt die Verlegung.</p>
 
                     <h2>Häufige Fragen</h2>
 
-                    <h3>Muss der alte Boden raus?</h3>
-                    <p>Nicht zwingend. Wenn der vorhandene Belag fest verklebt, eben und in einem stabilen Zustand ist, kann neues Laminat oder Vinyl in vielen Fällen direkt darüber verlegt werden. Das reduziert Aufwand und Entsorgungskosten erheblich. Ob das in Ihrem Fall möglich ist, hängt von der Aufbauhöhe ab – mehr als zwei Belaglagen übereinander empfehlen wir nicht, da sonst Türen und Übergänge Probleme bereiten. Wir prüfen das bei der Besichtigung und geben eine klare Empfehlung.</p>
-
-                    <h3>Wie lange dauert das Verlegen?</h3>
-                    <p>Ein typisches Zimmer mit rund 25 Quadratmetern Grundfläche lässt sich einschließlich Untergrundvorbereitung und Sockelleisten an einem Arbeitstag abschließen. Bei größeren Flächen oder wenn Ausgleichsmasse aufgebracht und ausgehärtet werden muss, verlängert sich die Zeit um einen weiteren Tag. Wir nennen Ihnen vor Beginn einen realistischen Zeitrahmen, der auch Trocknungszeiten berücksichtigt.</p>
-
-                    <h3>Welcher Boden eignet sich für Fußbodenheizung?</h3>
-                    <p>Für Fußbodenheizung eignen sich vor allem Vinylböden und bestimmte Laminatprodukte, die ausdrücklich für den Einsatz auf beheizten Untergründen freigegeben sind. Entscheidend ist der Wärmedurchlasswiderstand (R-Wert) des Belags: Er sollte 0,15 m²K/W nicht überschreiten, damit die Heizwärme effizient in den Raum übertragen wird. Kork hat einen vergleichsweise hohen R-Wert und ist für Fußbodenheizung in der Regel nicht empfehlenswert. Wir informieren Sie bei der Materialauswahl, welche Produkte für Ihren Heizungstyp freigegeben sind.</p>
+                    <div class="faq-list">
+                        <details class="faq-item">
+                            <summary>Muss der alte Boden raus?</summary>
+                            <div class="faq-item__body">
+                                <p>Nicht zwingend. Fest verklebte, ebene Altbeläge können oft als Untergrund bleiben. Mehr als zwei Lagen empfehlen wir nicht, da Türen und Übergänge sonst Probleme bereiten.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Wie lange dauert das Verlegen?</summary>
+                            <div class="faq-item__body">
+                                <p>Ein Zimmer mit ca. 25 m² ist inklusive Untergrund und Sockelleisten an einem Tag fertig. Bei Ausgleichsmasse kommt ein weiterer Trocknungstag hinzu.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Welcher Boden eignet sich für Fußbodenheizung?</summary>
+                            <div class="faq-item__body">
+                                <p>Vor allem Vinyl und bestimmte Laminate. Der Wärmedurchlasswiderstand darf 0,15 m²K/W nicht überschreiten. Kork ist wegen seines hohen R-Werts meist nicht empfehlenswert.</p>
+                            </div>
+                        </details>
+                    </div>
 
                 </article>
 
