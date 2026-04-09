@@ -54,9 +54,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 1 -->
                 <article class="ref-card" data-category="innenmalerei">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Wohnzimmer-Renovierung">
-                            <span>Wohnzimmer<br>Innenmalerei<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/wohnzimmer.jpg" alt="Wohnzimmer-Renovierung Innenmalerei Dinslaken" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -72,9 +70,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 2 -->
                 <article class="ref-card" data-category="innenmalerei">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Wohnungsrenovierung Dinslaken-Hiesfeld">
-                            <span>Wohnungsrenovierung<br>4 Zimmer<br>Hiesfeld</span>
-                        </div>
+                        <img src="assets/images/schlafzimmer.jpg" alt="Wohnungsrenovierung 4 Zimmer Dinslaken-Hiesfeld" loading="lazy" width="800" height="542">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -90,9 +86,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 3 -->
                 <article class="ref-card" data-category="aussenmalerei">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Holzfenster und Haustür Dinslaken">
-                            <span>Holzschutz<br>Fenster + Haustür<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/holzfenster.jpg" alt="Holzfenster und Haustür Holzschutzanstrich Dinslaken" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -108,9 +102,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 4 -->
                 <article class="ref-card" data-category="aussenmalerei">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Außentür und Geländer Wesel">
-                            <span>Metallschutz<br>Tür + Geländer<br>Wesel</span>
-                        </div>
+                        <img src="assets/images/haustuer.jpg" alt="Außentür und Treppengeländer Metallschutzanstrich Wesel" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -126,9 +118,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 5 -->
                 <article class="ref-card" data-category="betonoptik">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Betonoptik Küche Dinslaken">
-                            <span>Betonoptik<br>Küche<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/kueche.jpg" alt="Betonoptik Küche Dinslaken" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -144,9 +134,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 6 -->
                 <article class="ref-card" data-category="betonoptik">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Betonoptik Büro Oberhausen">
-                            <span>Betonoptik<br>Empfang<br>Oberhausen</span>
-                        </div>
+                        <img src="assets/images/buero-lounge.jpg" alt="Betonoptik Büro Empfangsbereich Oberhausen" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -162,9 +150,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 7 -->
                 <article class="ref-card" data-category="fassade">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Fassadenrenovierung Dinslaken">
-                            <span>Fassade<br>Einfamilienhaus<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/haus-fassade.jpg" alt="Fassadenrenovierung Einfamilienhaus Dinslaken" loading="lazy" width="800" height="531">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -180,9 +166,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 8 -->
                 <article class="ref-card" data-category="fassade">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Fassadenanstrich Mehrfamilienhaus Voerde">
-                            <span>Fassade<br>Mehrfamilienhaus<br>Voerde</span>
-                        </div>
+                        <img src="assets/images/haus-modern.jpg" alt="Fassadenanstrich Mehrfamilienhaus Voerde" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -198,9 +182,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 9 -->
                 <article class="ref-card" data-category="bodenverlegung">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Vinylboden Büro Dinslaken">
-                            <span>LVT Klick<br>120 qm Büro<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/vinylboden.jpg" alt="Vinylboden LVT Klick Büro Dinslaken" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -216,9 +198,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 10 -->
                 <article class="ref-card" data-category="bodenverlegung">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Laminatboden Dinslaken-Eppinghoven">
-                            <span>Laminat<br>3 Zimmer<br>Eppinghoven</span>
-                        </div>
+                        <img src="assets/images/holzboden.jpg" alt="Laminatboden 3 Zimmer Dinslaken-Eppinghoven" loading="lazy" width="800" height="1200">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -234,9 +214,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 11 -->
                 <article class="ref-card" data-category="innenmalerei">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Treppenhaus Renovierung Dinslaken">
-                            <span>Treppenhaus<br>4 Stockwerke<br>Dinslaken</span>
-                        </div>
+                        <img src="assets/images/treppenhaus.jpg" alt="Treppenhaus Renovierung 4 Stockwerke Dinslaken" loading="lazy" width="800" height="533">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -252,9 +230,7 @@ require_once __DIR__ . '/partials/nav.php';
                 <!-- 12 -->
                 <article class="ref-card" data-category="betonoptik">
                     <div class="ref-card__image">
-                        <div class="gallery-placeholder" aria-label="Projektfoto: Betonoptik Badezimmer Duisburg">
-                            <span>Betonoptik Bad<br>wasserbeständig<br>Duisburg</span>
-                        </div>
+                        <img src="assets/images/betonoptik.jpg" alt="Betonoptik Badezimmer wasserbeständig Duisburg" loading="lazy" width="800" height="1200">
                         <div class="gallery-item__overlay" aria-hidden="true"></div>
                     </div>
                     <div class="ref-card__body">
@@ -291,13 +267,13 @@ require_once __DIR__ . '/partials/nav.php';
                         <div>
                             <p class="section-label" style="margin-bottom: var(--space-2);">Vorher</p>
                             <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Vorher: Wohnzimmer mit verwitterten Wänden">
-                                <span>Vorher:<br>Verwitterte Wände,<br>abgeblätterte Farbe</span>
+                                <img src="assets/images/vorher-wand.jpg" alt="Vorher: Wohnzimmer mit verwitterten Wänden und abgeblätterter Farbe" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
                             </div>
                         </div>
                         <div>
                             <p class="section-label" style="margin-bottom: var(--space-2);">Nachher</p>
                             <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Nachher: Wohnzimmer frisch gestrichen">
-                                <span>Nachher:<br>Frisch gestrichen,<br>gleichmäßige Fläche</span>
+                                <img src="assets/images/wohnzimmer.jpg" alt="Nachher: Wohnzimmer frisch gestrichen mit gleichmäßiger Fläche" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
                             </div>
                         </div>
                     </div>
@@ -313,13 +289,13 @@ require_once __DIR__ . '/partials/nav.php';
                         <div>
                             <p class="section-label" style="margin-bottom: var(--space-2);">Vorher</p>
                             <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Vorher: Fassade mit Rissen und Ausblühungen">
-                                <span>Vorher:<br>Risse, Ausblühungen,<br>verblasste Farbe</span>
+                                <img src="assets/images/vorher-fassade.jpg" alt="Vorher: Fassade mit Rissen, Ausblühungen und verblasster Farbe" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
                             </div>
                         </div>
                         <div>
                             <p class="section-label" style="margin-bottom: var(--space-2);">Nachher</p>
                             <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Nachher: Fassade vollständig renoviert">
-                                <span>Nachher:<br>Renoviert, abgedichtet,<br>neuer Farbton</span>
+                                <img src="assets/images/haus-fassade.jpg" alt="Nachher: Fassade vollständig renoviert mit neuem Farbton" loading="lazy" width="800" height="531" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
                             </div>
                         </div>
                     </div>

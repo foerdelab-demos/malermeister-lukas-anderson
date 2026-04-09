@@ -95,15 +95,7 @@ require_once __DIR__ . '/partials/nav.php';
         <div class="container">
             <div class="about-block">
                 <div class="about-image">
-                    <div class="about-image__placeholder">
-                        <div>
-                            <strong>Betonoptik Dinslaken</strong><br>
-                            Moderner Industrial-Look für<br>
-                            Wohnräume und Büros
-                            <br><br>
-                            <em style="font-size:.8em;color:var(--color-stone)">[Foto: Betonoptik-Projekt einfügen]</em>
-                        </div>
-                    </div>
+                    <img src="assets/images/betonoptik.jpg" alt="Betonoptik Dinslaken – moderner Industrial-Look für Wohnräume und Büros" loading="lazy" width="800" height="1200">
                 </div>
                 <div class="about-content">
                     <span class="section-label">Besondere Oberflächen</span>
@@ -144,22 +136,19 @@ require_once __DIR__ . '/partials/nav.php';
             <div class="gallery-grid">
                 <?php
                 $gallery_previews = [
-                    ['alt' => 'Innenmalerei Dinslaken – helle Wohnküche nach Renovierung', 'cat' => 'Innenmalerei', 'label' => 'Innenmalerei'],
-                    ['alt' => 'Betonoptik Dinslaken – moderne Akzentwand im Wohnzimmer',  'cat' => 'Betonoptik',   'label' => 'Betonoptik'],
-                    ['alt' => 'Fassadengestaltung Dinslaken – renovierte Hausfassade',     'cat' => 'Fassade',     'label' => 'Fassade'],
-                    ['alt' => 'Tapezierarbeiten Dinslaken – Designtapete im Schlafzimmer', 'cat' => 'Tapezieren',  'label' => 'Tapezieren'],
-                    ['alt' => 'Außenmalerei Dinslaken – frisch gestrichenes Holzwerk',     'cat' => 'Außenmalerei','label' => 'Außenmalerei'],
-                    ['alt' => 'Bodenverlegung Dinslaken – Vinylboden im Büro',             'cat' => 'Boden',       'label' => 'Bodenverlegung'],
-                    ['alt' => 'Kreative Wandgestaltung – Venezianischer Putz',              'cat' => 'Kreativ',     'label' => 'Wandgestaltung'],
-                    ['alt' => 'Innenmalerei Dinslaken – frisch gemalter Flurbereich',      'cat' => 'Innenmalerei','label' => 'Innenmalerei'],
+                    ['alt' => 'Innenmalerei Dinslaken – helle Wohnküche nach Renovierung', 'cat' => 'Innenmalerei', 'label' => 'Innenmalerei', 'img' => 'wohnzimmer.jpg'],
+                    ['alt' => 'Betonoptik Dinslaken – moderne Akzentwand im Wohnzimmer',  'cat' => 'Betonoptik',   'label' => 'Betonoptik',   'img' => 'betonoptik.jpg'],
+                    ['alt' => 'Fassadengestaltung Dinslaken – renovierte Hausfassade',     'cat' => 'Fassade',     'label' => 'Fassade',      'img' => 'haus-fassade.jpg'],
+                    ['alt' => 'Tapezierarbeiten Dinslaken – Designtapete im Schlafzimmer', 'cat' => 'Tapezieren',  'label' => 'Tapezieren',   'img' => 'tapete-design.jpg'],
+                    ['alt' => 'Außenmalerei Dinslaken – frisch gestrichenes Holzwerk',     'cat' => 'Außenmalerei','label' => 'Außenmalerei',  'img' => 'haus-modern.jpg'],
+                    ['alt' => 'Bodenverlegung Dinslaken – Vinylboden im Büro',             'cat' => 'Boden',       'label' => 'Bodenverlegung','img' => 'holzboden.jpg'],
+                    ['alt' => 'Kreative Wandgestaltung – Venezianischer Putz',              'cat' => 'Kreativ',     'label' => 'Wandgestaltung','img' => 'wandgestaltung.jpg'],
+                    ['alt' => 'Innenmalerei Dinslaken – frisch gemalter Flurbereich',      'cat' => 'Innenmalerei','label' => 'Innenmalerei',  'img' => 'flur.jpg'],
                 ];
                 foreach ($gallery_previews as $gitem):
                 ?>
                 <div class="gallery-item" data-lightbox="#" data-alt="<?= htmlspecialchars($gitem['alt']) ?>" data-caption="<?= htmlspecialchars($gitem['cat']) ?>" tabindex="0" role="button" aria-label="Bild vergrößern: <?= htmlspecialchars($gitem['cat']) ?>">
-                    <div class="gallery-placeholder">
-                        <?= htmlspecialchars($gitem['label']) ?><br>
-                        <span style="font-size:.75em;color:var(--color-border)">[Foto einfügen]</span>
-                    </div>
+                    <img src="assets/images/<?= htmlspecialchars($gitem['img']) ?>" alt="<?= htmlspecialchars($gitem['alt']) ?>" loading="lazy" width="800" height="533">
                     <div class="gallery-item__overlay">
                         <span class="gallery-item__caption"><?= htmlspecialchars($gitem['label']) ?></span>
                     </div>
@@ -195,13 +184,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <a href="ueber-den-meister.php" class="btn btn--primary mt-4">Mehr über mich erfahren</a>
                 </div>
                 <div class="about-image">
-                    <div class="about-image__placeholder">
-                        <div>
-                            <strong>Lukas Anderson</strong><br>
-                            Malermeister, Dinslaken<br><br>
-                            <em style="font-size:.8em;color:var(--color-stone)">[Porträtfoto einfügen]</em>
-                        </div>
-                    </div>
+                    <img src="assets/img/Firmen-Image-Profil-1-1605x2048.jpg" alt="Lukas Anderson – Malermeister aus Dinslaken, vor seinem Firmenfahrzeug" loading="lazy" width="1605" height="2048">
                 </div>
             </div>
         </div>
@@ -270,11 +253,11 @@ require_once __DIR__ . '/partials/nav.php';
                     </div>
                 </div>
                 <div class="map-wrapper">
-                    <div class="map-placeholder">
-                        <p><strong>Malermeister Anderson</strong><br><?= SITE_ADDRESS_FULL ?></p>
-                        <a href="https://maps.google.com/?q=<?= urlencode(SITE_ADDRESS_FULL) ?>" target="_blank" rel="noopener" class="btn btn--outline btn--sm">In Google Maps öffnen</a>
-                        <p style="font-size:.75em;color:var(--color-border);margin-top:var(--space-4)">[Google Maps Embed hier einfügen]</p>
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39851.44487797684!2d6.7!3d51.567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8a90f7bfb3657%3A0x4236659b80b9f40!2sDinslaken!5e0!3m2!1sde!2sde!4v1"
+                        width="100%" height="350" style="border:0; border-radius: var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Standort Malermeister Anderson in Dinslaken">
+                    </iframe>
                 </div>
             </div>
         </div>

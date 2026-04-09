@@ -9,8 +9,7 @@ if (!defined('SITE_NAME')) {
             <div class="footer-grid">
                 <div class="footer-col footer-col--brand">
                     <a href="./" class="footer-logo" aria-label="<?= SITE_NAME ?> – Startseite">
-                        <span class="footer-logo__name">Malermeister<br><strong>Anderson</strong></span>
-                        <span class="footer-logo__sub"><?= SITE_MOTTO ?></span>
+                        <img src="assets/img/Malermeister Lukas Anderson Logo.png" alt="<?= SITE_NAME ?> Logo" class="footer-logo__img" width="1536" height="1024">
                     </a>
                     <p class="footer-tagline">
                         Ihr Malerbetrieb in Dinslaken und Umgebung. Persönlich, zuverlässig und mit Leidenschaft für jede Oberfläche.

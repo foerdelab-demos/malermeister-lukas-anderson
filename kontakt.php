@@ -197,25 +197,11 @@ require_once __DIR__ . '/partials/nav.php';
                     </p>
 
                     <div class="map-wrapper">
-                        <div class="map-placeholder" aria-label="Kartenansicht: <?= SITE_ADDRESS_FULL ?>">
-                            <address style="font-style: normal; text-align: center; line-height: 1.8;">
-                                <strong><?= SITE_OWNER ?></strong><br>
-                                <?= SITE_ADDRESS_STREET ?><br>
-                                <?= SITE_ADDRESS_ZIP ?> <?= SITE_ADDRESS_CITY ?>
-                            </address>
-                            <a
-                                href="https://www.google.com/maps/search/?api=1&query=<?= urlencode(SITE_ADDRESS_FULL) ?>"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn btn--outline btn--sm"
-                                style="margin-top: var(--space-4);"
-                            >
-                                In Google Maps öffnen
-                            </a>
-                            <p style="margin-top: var(--space-4); font-size: var(--text-sm); color: var(--color-text-muted); text-align: center;">
-                                Zur Einbindung einer interaktiven Karte wird ein Google Maps API-Schlüssel benötigt.
-                            </p>
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39851.44487797684!2d6.7!3d51.567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8a90f7bfb3657%3A0x4236659b80b9f40!2sDinslaken!5e0!3m2!1sde!2sde!4v1"
+                            width="100%" height="350" style="border:0; border-radius: var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="Standort Malermeister Anderson in Dinslaken">
+                        </iframe>
                     </div>
 
                     <div class="info-card" style="margin-top: var(--space-6);">

@@ -101,8 +101,8 @@ $schema = [
     <?= json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?>
     </script>
 
-    <!-- Favicon placeholder -->
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/Malermeister Lukas Anderson Logo.png">
 </head>
 <body class="<?= htmlspecialchars($page_class) ?>
 <?php require_once __DIR__ . '/demo.php'; ?>">

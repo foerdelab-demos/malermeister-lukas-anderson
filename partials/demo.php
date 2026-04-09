@@ -16,12 +16,18 @@ define('FOERDELAB_DEMO_OVERLAY_RENDERED', true);
     max-width: min(92vw, 420px);
     padding: 12px 16px;
     border-radius: 14px;
-    border: 1px solid rgba(255,255,255,.22);
-    background: rgba(17,24,39,.88);
+    border: 1px solid rgba(196,163,90,.3);
+    background: rgba(27,72,82,.92);
     color: #fff;
     box-shadow: 0 12px 34px rgba(0,0,0,.28);
     backdrop-filter: blur(10px);
-    font: 600 13px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font: 600 13px/1.35 'Lora', Georgia, serif;
+    text-decoration: none;
+    transition: border-color .2s, box-shadow .2s;
+}
+.foerdelab-demo-badge:hover {
+    border-color: rgba(196,163,90,.55);
+    box-shadow: 0 12px 34px rgba(0,0,0,.35);
 }
 .foerdelab-demo-badge__mark {
     flex: 0 0 auto;
@@ -31,8 +37,9 @@ define('FOERDELAB_DEMO_OVERLAY_RENDERED', true);
     width: 32px;
     height: 32px;
     border-radius: 999px;
-    background: linear-gradient(135deg, #f59e0b, #fb7185);
-    color: #111827;
+    background: linear-gradient(135deg, #C4A35A, #A8883C);
+    color: #1B4852;
+    font-family: 'Playfair Display', Georgia, serif;
     font-weight: 800;
 }
 .foerdelab-demo-badge__meta {
@@ -44,12 +51,12 @@ define('FOERDELAB_DEMO_OVERLAY_RENDERED', true);
     font-size: 12px;
     letter-spacing: .08em;
     text-transform: uppercase;
-    opacity: .9;
+    color: #C4A35A;
 }
 .foerdelab-demo-badge__meta span {
     font-size: 13px;
     font-weight: 500;
-    opacity: .95;
+    opacity: .85;
 }
 @media (max-width: 640px) {
     .foerdelab-demo-badge {
@@ -60,10 +67,10 @@ define('FOERDELAB_DEMO_OVERLAY_RENDERED', true);
     }
 }
 </style>
-<div class="foerdelab-demo-badge" aria-label="Demo-Hinweis">
+<a href="https://foerdelab.de" target="_blank" rel="noopener noreferrer" class="foerdelab-demo-badge" aria-label="FördeLab Demo-Hinweis">
     <span class="foerdelab-demo-badge__mark">F</span>
     <span class="foerdelab-demo-badge__meta">
-        <strong>FoerdeLab Demo</strong>
-        <span>Demo fuer Malermeister Lukas Anderson · Nicht zur Weitergabe</span>
+        <strong>FördeLab Demo</strong>
+        <span>Demo für Malermeister Lukas Anderson · Nicht zur Weitergabe</span>
     </span>
-</div>
+</a>

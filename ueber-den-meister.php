@@ -36,9 +36,7 @@ require_once __DIR__ . '/partials/nav.php';
             <div class="about-block">
 
                 <div class="about-image">
-                    <div class="about-image__placeholder" aria-label="Porträt Lukas Anderson, Malermeister">
-                        <span>Porträt<br><?= SITE_OWNER ?><br>Malermeister</span>
-                    </div>
+                    <img src="assets/img/Firmen-Image-Profil-1-1605x2048.jpg" alt="Lukas Anderson – Malermeister aus Dinslaken, vor seinem Firmenfahrzeug" loading="lazy" width="1605" height="2048">
                 </div>
 
                 <div class="about-content">

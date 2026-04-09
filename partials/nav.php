@@ -9,8 +9,7 @@ $current_page = $current_page ?? '';
     <div class="container">
         <nav class="site-nav" aria-label="Hauptnavigation">
             <a href="./" class="nav-logo" aria-label="<?= SITE_NAME ?> – Startseite">
-                <span class="nav-logo__name">Malermeister<br><strong>Anderson</strong></span>
-                <span class="nav-logo__sub"><?= SITE_MOTTO ?></span>
+                <img src="assets/img/Malermeister Lukas Anderson Logo.png" alt="<?= SITE_NAME ?> Logo" class="nav-logo__img" width="1536" height="1024">
             </a>
 
             <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Navigation öffnen">

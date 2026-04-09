@@ -403,6 +403,12 @@ strong { font-weight: 600; }
     flex-shrink: 0;
 }
 
+.nav-logo__img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
 .nav-logo__name {
     font-family: var(--font-heading);
     font-size: var(--size-lg);
@@ -1565,6 +1571,7 @@ strong { font-weight: 600; }
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 20%;
 }
 
 .about-image__placeholder {
@@ -1766,6 +1773,12 @@ strong { font-weight: 600; }
     flex-direction: column;
     line-height: 1.3;
     text-decoration: none;
+}
+
+.footer-logo__img {
+    height: 56px;
+    width: auto;
+    display: block;
 }
 
 .footer-logo__name {
