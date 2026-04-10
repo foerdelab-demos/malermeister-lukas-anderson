@@ -90,7 +90,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <h2 id="kontakt-form-title">Schreiben Sie uns</h2>
                     <p style="margin-bottom: var(--space-6);">
                         Nutzen Sie das Formular für allgemeine Anfragen. Für einen Kostenvoranschlag empfehlen
-                        wir unser <a href="kostenvoranschlag.php">Anfrage-Formular</a> mit mehr Details.
+                        wir unser <a href="kontakt.php">Anfrage-Formular</a> mit mehr Details.
                         Alle Pflichtfelder sind mit * gekennzeichnet.
                     </p>
 
@@ -241,7 +241,7 @@ require_once __DIR__ . '/partials/nav.php';
                         Persönliche Besichtigung und detailliertes Angebot – kostenlos und unverbindlich.
                     </p>
                     <div class="cta-section__actions">
-                        <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Zum Anfrage-Formular</a>
+                        <a href="kontakt.php" class="btn btn--accent btn--lg">Zum Anfrage-Formular</a>
                         <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--outline-light btn--lg">
                             <?= SITE_PHONE ?> anrufen
                         </a>

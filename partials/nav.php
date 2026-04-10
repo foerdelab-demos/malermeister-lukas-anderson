@@ -48,7 +48,7 @@ $current_page = $current_page ?? '';
                         <a href="kontakt.php" class="nav-link">Kontakt</a>
                     </li>
                     <li class="nav-item nav-item--cta">
-                        <a href="kostenvoranschlag.php" class="btn btn--primary btn--sm">Kostenvoranschlag</a>
+                        <a href="kontakt.php" class="btn btn--primary btn--sm">Kontakt</a>
                     </li>
                 </ul>
             </div>

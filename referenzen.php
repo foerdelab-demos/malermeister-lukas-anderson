@@ -333,7 +333,7 @@ require_once __DIR__ . '/partials/nav.php';
                         unverbindliches Angebot. Kein Risiko, keine versteckten Kosten.
                     </p>
                     <div class="cta-section__actions">
-                        <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
+                        <a href="kontakt.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
                         <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--outline-light btn--lg">
                             <?= SITE_PHONE ?> anrufen
                         </a>

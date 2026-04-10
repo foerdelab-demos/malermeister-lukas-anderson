@@ -81,7 +81,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <div class="sidebar-card sidebar-card--accent">
                         <h3>Kostenloser Kostenvoranschlag</h3>
                         <p>Rufen Sie uns an oder nutzen Sie unser Formular.</p>
-                        <a href="kostenvoranschlag.php" class="btn btn--accent" style="width:100%;justify-content:center;margin-bottom:var(--space-3)">Anfrage senden</a>
+                        <a href="kontakt.php" class="btn btn--accent" style="width:100%;justify-content:center;margin-bottom:var(--space-3)">Anfrage senden</a>
                         <a href="tel:+491723047213" class="btn btn--outline-light" style="width:100%;justify-content:center">0172 3047213</a>
                     </div>
                     <div class="sidebar-card">
@@ -108,7 +108,7 @@ require_once __DIR__ . '/partials/nav.php';
             <h2 class="cta-section__title" id="bodenverlegearbeiten-cta">Neuen Boden verlegen lassen?</h2>
             <p class="cta-section__text">Wir messen auf, prüfen den Untergrund und erstellen ein vollständiges Angebot – inklusive Untergrundvorbereitung, Verlegung und Abschlussleisten.</p>
             <div class="cta-section__actions">
-                <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
+                <a href="kontakt.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
                 <a href="tel:+491723047213" class="btn btn--outline-light">Jetzt anrufen: 0172 3047213</a>
             </div>
         </div>

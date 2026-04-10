@@ -52,7 +52,7 @@ require_once __DIR__ . '/partials/nav.php';
             <h2 class="cta-section__title" id="leistungen-cta">Interesse an unseren Leistungen?</h2>
             <p class="cta-section__text">Kontaktieren Sie uns für ein kostenloses Beratungsgespräch. Wir besichtigen Ihr Objekt und erstellen Ihnen ein transparentes Angebot.</p>
             <div class="cta-section__actions">
-                <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
+                <a href="kontakt.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
                 <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--outline-light">Jetzt anrufen: <?= SITE_PHONE ?></a>
             </div>
         </div>

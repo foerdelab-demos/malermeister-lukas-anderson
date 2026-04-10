@@ -209,7 +209,7 @@ require_once __DIR__ . '/partials/nav.php';
                         transparentes Angebot – kostenlos und unverbindlich. Rufen Sie mich an oder schreiben Sie mir.
                     </p>
                     <div class="cta-section__actions">
-                        <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
+                        <a href="kontakt.php" class="btn btn--accent btn--lg">Kostenvoranschlag anfordern</a>
                         <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--outline-light btn--lg">
                             <?= SITE_PHONE ?> anrufen
                         </a>

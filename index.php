@@ -33,7 +33,7 @@ require_once __DIR__ . '/partials/nav.php';
                     <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--accent btn--lg">
                         Jetzt anrufen: <?= SITE_PHONE ?>
                     </a>
-                    <a href="kostenvoranschlag.php" class="btn btn--outline-light btn--lg">
+                    <a href="kontakt.php" class="btn btn--outline-light btn--lg">
                         Kostenvoranschlag anfordern
                     </a>
                 </div>
@@ -204,7 +204,7 @@ require_once __DIR__ . '/partials/nav.php';
                 Fordern Sie jetzt Ihren kostenlosen Kostenvoranschlag an. Ich besichtige Ihr Objekt persönlich und erstelle Ihnen ein transparentes Angebot – ohne versteckte Kosten.
             </p>
             <div class="cta-section__actions">
-                <a href="kostenvoranschlag.php" class="btn btn--accent btn--lg">Kostenlosen Kostenvoranschlag anfordern</a>
+                <a href="kontakt.php" class="btn btn--accent btn--lg">Kostenlosen Kostenvoranschlag anfordern</a>
                 <a href="tel:<?= SITE_PHONE_RAW ?>" class="btn btn--outline-light">Direkt anrufen: <?= SITE_PHONE ?></a>
             </div>
         </div>

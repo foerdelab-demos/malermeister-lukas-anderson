@@ -37,7 +37,7 @@ if (!defined('SITE_NAME')) {
                         <li><a href="leistungen.php">Alle Leistungen</a></li>
                         <li><a href="referenzen.php">Referenzen</a></li>
                         <li><a href="ueber-den-meister.php">Über den Meister</a></li>
-                        <li><a href="kostenvoranschlag.php">Kostenvoranschlag</a></li>
+                        <li><a href="kontakt.php">Kostenvoranschlag</a></li>
                         <li><a href="kontakt.php">Kontakt</a></li>
                     </ul>
                 </div>
