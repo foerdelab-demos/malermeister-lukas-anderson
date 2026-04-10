@@ -38,6 +38,9 @@ require_once __DIR__ . '/partials/nav.php';
                     </a>
                 </div>
             </div>
+            <div class="hero__portrait" aria-hidden="true">
+                <img src="assets/img/Objekt%204.png" alt="" width="580" height="720" draggable="false">
+            </div>
         </div>
     </section>
 

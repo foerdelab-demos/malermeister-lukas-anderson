@@ -276,6 +276,27 @@
       var handle = slider.querySelector('.ba-slider__handle');
       if (!handle) return;
 
+      /* Create SVG line inside handle-line to match clip-path diagonal */
+      var lineContainer = slider.querySelector('.ba-slider__handle-line');
+      var svgNS = 'http://www.w3.org/2000/svg';
+      var svg = document.createElementNS(svgNS, 'svg');
+      svg.setAttribute('overflow', 'visible');
+      svg.style.cssText = 'position:absolute;inset:0;overflow:visible';
+      var svgLine = document.createElementNS(svgNS, 'line');
+      svg.appendChild(svgLine);
+      if (lineContainer) lineContainer.appendChild(svg);
+
+      function updateLine() {
+        var rect = slider.getBoundingClientRect();
+        var offset = rect.width * 0.09;
+        svgLine.setAttribute('x1', offset);
+        svgLine.setAttribute('y1', '0');
+        svgLine.setAttribute('x2', -offset);
+        svgLine.setAttribute('y2', rect.height);
+      }
+      updateLine();
+      window.addEventListener('resize', updateLine);
+
       var dragging = false;
       var lastX = null;
       var dirTimer = null;

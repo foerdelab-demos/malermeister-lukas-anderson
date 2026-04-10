@@ -41,7 +41,7 @@ require_once __DIR__ . '/partials/nav.php';
             </div>
 
             <div class="gallery-filter" role="group" aria-label="Projekte filtern">
-                <button class="gallery-filter__btn gallery-filter__btn--active" data-filter="all" type="button">Alle</button>
+                <button class="gallery-filter__btn active" data-filter="all" type="button">Alle</button>
                 <button class="gallery-filter__btn" data-filter="innenmalerei" type="button">Innenmalerei</button>
                 <button class="gallery-filter__btn" data-filter="aussenmalerei" type="button">Außenmalerei</button>
                 <button class="gallery-filter__btn" data-filter="betonoptik" type="button">Betonoptik</button>

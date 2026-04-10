@@ -681,6 +681,9 @@ strong { font-weight: 600; }
     position: relative;
     z-index: 2;
     padding-block: var(--space-24);
+    display: flex;
+    align-items: flex-end;
+    gap: var(--space-8);
 }
 
 .hero--page .hero__inner {
@@ -689,6 +692,32 @@ strong { font-weight: 600; }
 
 .hero__content {
     max-width: 720px;
+    flex: 1 1 0%;
+}
+
+/* Cutout portrait */
+.hero__portrait {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .hero__portrait {
+        display: block;
+        flex: 0 0 auto;
+        width: clamp(260px, 28vw, 400px);
+        align-self: flex-end;
+        margin-bottom: calc(-1 * var(--space-24));
+        pointer-events: none;
+        position: relative;
+    }
+
+    .hero__portrait img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 4px 24px rgba(0,0,0,.35));
+    }
 }
 
 .hero__label {
@@ -1707,7 +1736,7 @@ strong { font-weight: 600; }
     position: absolute;
     inset: 0;
     overflow: hidden;
-    /* Angled clip: 20° tilt using polygon — skew offset ~18% of height */
+    /* Angled clip using polygon — 9% offset creates ~20° diagonal on 4:3 */
     clip-path: polygon(
         0 0,
         calc(var(--ba-pos) + 9%) 0,
@@ -1731,33 +1760,34 @@ strong { font-weight: 600; }
     left: var(--ba-pos);
     width: 0;
     z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+/* Line drawn via SVG in JS for perfect diagonal alignment */
 .ba-slider__handle-line {
     position: absolute;
-    top: -10%;
-    bottom: -10%;
-    left: 50%;
-    width: 3px;
-    margin-left: -1.5px;
-    background: #fff;
-    box-shadow: 0 0 8px rgba(0,0,0,.35);
-    transform: rotate(var(--ba-angle));
-    transform-origin: center center;
+    inset: 0;
     pointer-events: none;
+    overflow: visible;
+}
+
+.ba-slider__handle-line line {
+    stroke: #fff;
+    stroke-width: 3;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,.35));
 }
 
 .ba-slider__handle-knob {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 0;
     z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
+    margin-left: -22px;
+    margin-top: -22px;
     border-radius: 50%;
     background: var(--color-primary);
     color: #fff;
@@ -1829,13 +1859,10 @@ strong { font-weight: 600; }
     100% { opacity: 0;  transform: translateY(55px) scale(.3); }
 }
 
-/* Paint stroke on the handle line */
-.ba-slider__handle-line {
-    transition: box-shadow .2s ease;
-}
-
-.ba-slider.is-dragging .ba-slider__handle-line {
-    box-shadow: 0 0 12px 3px rgba(196,163,90,.45);
+/* Glow on the handle line while dragging */
+.ba-slider.is-dragging .ba-slider__handle-line line {
+    stroke-width: 4;
+    filter: drop-shadow(0 0 8px rgba(196,163,90,.6)) drop-shadow(0 0 4px rgba(196,163,90,.35));
 }
 
 /* ------------------------------------------------------------
@@ -2209,6 +2236,7 @@ strong { font-weight: 600; }
 }
 
 .ref-card__image {
+    position: relative;
     background-color: var(--color-bg-alt);
     aspect-ratio: 16/10;
     display: flex;
