@@ -104,5 +104,5 @@ $schema = [
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/Malermeister Lukas Anderson Logo.png">
 </head>
-<body class="<?= htmlspecialchars($page_class) ?>
-<?php require_once __DIR__ . '/demo.php'; ?>">
+<body class="<?= htmlspecialchars($page_class) ?>">
+<?php require_once __DIR__ . '/demo.php'; ?>
