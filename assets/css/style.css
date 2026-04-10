@@ -700,8 +700,8 @@ strong { font-weight: 600; }
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 55%;
-    max-width: 320px;
+    width: 40%;
+    max-width: 200px;
     pointer-events: none;
     opacity: .15;
     z-index: 0;
