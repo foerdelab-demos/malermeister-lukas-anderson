@@ -263,19 +263,24 @@ require_once __DIR__ . '/partials/nav.php';
 
                 <div class="info-card">
                     <h3>Wohnzimmer in Dinslaken</h3>
-                    <div class="grid-2" style="gap: var(--space-4); margin-top: var(--space-4);">
-                        <div>
-                            <p class="section-label" style="margin-bottom: var(--space-2);">Vorher</p>
-                            <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Vorher: Wohnzimmer mit verwitterten Wänden">
-                                <img src="assets/images/vorher-wand.jpg" alt="Vorher: Wohnzimmer mit verwitterten Wänden und abgeblätterter Farbe" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
-                            </div>
+                    <div class="ba-slider" style="margin-top: var(--space-4);">
+                        <img src="assets/images/wohnzimmer.jpg" alt="Nachher: Wohnzimmer frisch gestrichen" class="ba-slider__after" draggable="false">
+                        <div class="ba-slider__before">
+                            <img src="assets/images/vorher-wand.jpg" alt="Vorher: Wohnzimmer mit verwitterten Wänden" draggable="false">
                         </div>
-                        <div>
-                            <p class="section-label" style="margin-bottom: var(--space-2);">Nachher</p>
-                            <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Nachher: Wohnzimmer frisch gestrichen">
-                                <img src="assets/images/wohnzimmer.jpg" alt="Nachher: Wohnzimmer frisch gestrichen mit gleichmäßiger Fläche" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
-                            </div>
+                        <div class="ba-slider__handle" aria-label="Vergleichsregler ziehen" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" tabindex="0">
+                            <span class="ba-slider__handle-line"></span>
+                            <span class="ba-slider__handle-knob">
+                                <svg class="ba-brush-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                                    <rect x="4" y="20" width="8" height="10" rx="1.5" fill="#C4A35A" stroke="currentColor" stroke-width="1.5"/>
+                                    <rect x="5.5" y="26" width="5" height="4" rx="1" fill="#8A8880" opacity=".5"/>
+                                    <rect x="6" y="2" width="4" height="18" rx="1" fill="currentColor"/>
+                                    <line x1="6" y1="6" x2="10" y2="6" stroke="#C4A35A" stroke-width="1"/>
+                                </svg>
+                            </span>
                         </div>
+                        <span class="ba-slider__label ba-slider__label--before">Vorher</span>
+                        <span class="ba-slider__label ba-slider__label--after">Nachher</span>
                     </div>
                     <p style="margin-top: var(--space-4);">
                         Wände und Decke neu gespachtelt, grundiert und in einem hellen Warmweißton gestrichen.
@@ -285,19 +290,24 @@ require_once __DIR__ . '/partials/nav.php';
 
                 <div class="info-card">
                     <h3>Fassade Einfamilienhaus, Voerde</h3>
-                    <div class="grid-2" style="gap: var(--space-4); margin-top: var(--space-4);">
-                        <div>
-                            <p class="section-label" style="margin-bottom: var(--space-2);">Vorher</p>
-                            <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Vorher: Fassade mit Rissen und Ausblühungen">
-                                <img src="assets/images/vorher-fassade.jpg" alt="Vorher: Fassade mit Rissen, Ausblühungen und verblasster Farbe" loading="lazy" width="800" height="533" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
-                            </div>
+                    <div class="ba-slider" style="margin-top: var(--space-4);">
+                        <img src="assets/images/haus-fassade.jpg" alt="Nachher: Fassade vollständig renoviert" class="ba-slider__after" draggable="false">
+                        <div class="ba-slider__before">
+                            <img src="assets/images/vorher-fassade.jpg" alt="Vorher: Fassade mit Rissen und Ausblühungen" draggable="false">
                         </div>
-                        <div>
-                            <p class="section-label" style="margin-bottom: var(--space-2);">Nachher</p>
-                            <div class="gallery-placeholder" style="min-height: 160px;" aria-label="Nachher: Fassade vollständig renoviert">
-                                <img src="assets/images/haus-fassade.jpg" alt="Nachher: Fassade vollständig renoviert mit neuem Farbton" loading="lazy" width="800" height="531" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-md)">
-                            </div>
+                        <div class="ba-slider__handle" aria-label="Vergleichsregler ziehen" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" tabindex="0">
+                            <span class="ba-slider__handle-line"></span>
+                            <span class="ba-slider__handle-knob">
+                                <svg class="ba-brush-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                                    <rect x="4" y="20" width="8" height="10" rx="1.5" fill="#C4A35A" stroke="currentColor" stroke-width="1.5"/>
+                                    <rect x="5.5" y="26" width="5" height="4" rx="1" fill="#8A8880" opacity=".5"/>
+                                    <rect x="6" y="2" width="4" height="18" rx="1" fill="currentColor"/>
+                                    <line x1="6" y1="6" x2="10" y2="6" stroke="#C4A35A" stroke-width="1"/>
+                                </svg>
+                            </span>
                         </div>
+                        <span class="ba-slider__label ba-slider__label--before">Vorher</span>
+                        <span class="ba-slider__label ba-slider__label--after">Nachher</span>
                     </div>
                     <p style="margin-top: var(--space-4);">
                         Alle Risse geöffnet, gereinigt und fachgerecht verschlossen. Fassade mit

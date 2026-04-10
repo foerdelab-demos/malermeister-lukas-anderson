@@ -604,19 +604,28 @@ strong { font-weight: 600; }
 
     .nav-dropdown {
         position: absolute;
-        top: calc(100% + var(--space-2));
+        top: 100%;
         left: 0;
+        min-width: 220px;
+        z-index: 1001;
+        display: none;
+        padding: var(--space-3) 0;
+        border-left: none;
+        margin-top: 0;
         background-color: var(--color-surface);
         border: 1px solid var(--color-border);
         border-radius: var(--radius-md);
         box-shadow: var(--shadow-lg);
-        padding: var(--space-3) 0;
-        min-width: 220px;
-        z-index: 1001;
-        display: none;
-        padding-left: 0;
-        border-left: none;
-        margin-top: 0;
+    }
+
+    /* Invisible bridge between nav item and dropdown to prevent hover gap */
+    .nav-dropdown::before {
+        content: '';
+        position: absolute;
+        top: -12px;
+        left: 0;
+        right: 0;
+        height: 12px;
     }
 
     .nav-item--dropdown:hover .nav-dropdown,
@@ -1672,40 +1681,161 @@ strong { font-weight: 600; }
 }
 
 /* ------------------------------------------------------------
-   18. Vorher / Nachher Showcase
+   18. Before / After Comparison Slider
    ------------------------------------------------------------ */
-.before-after {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-2);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-}
-
-.before-after__panel {
+.ba-slider {
+    --ba-angle: 20deg;
+    --ba-pos: 50%;
     position: relative;
-    background-color: var(--color-bg-alt);
+    overflow: hidden;
+    border-radius: var(--radius-lg);
     aspect-ratio: 4/3;
+    cursor: col-resize;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
 }
 
-.before-after__panel img {
+.ba-slider__after {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.before-after__label {
+.ba-slider__before {
     position: absolute;
-    top: var(--space-3);
-    left: var(--space-3);
-    background-color: rgba(0,0,0,.6);
-    color: white;
+    inset: 0;
+    overflow: hidden;
+    /* Angled clip: 20° tilt using polygon — skew offset ~18% of height */
+    clip-path: polygon(
+        0 0,
+        calc(var(--ba-pos) + 9%) 0,
+        calc(var(--ba-pos) - 9%) 100%,
+        0 100%
+    );
+}
+
+.ba-slider__before img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Handle: the draggable line + knob */
+.ba-slider__handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--ba-pos);
+    width: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ba-slider__handle-line {
+    position: absolute;
+    top: -10%;
+    bottom: -10%;
+    left: 50%;
+    width: 3px;
+    margin-left: -1.5px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.35);
+    transform: rotate(var(--ba-angle));
+    transform-origin: center center;
+    pointer-events: none;
+}
+
+.ba-slider__handle-knob {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,.3);
+    transition: transform .15s ease, background .15s ease;
+}
+
+.ba-slider__handle-knob:hover,
+.ba-slider:active .ba-slider__handle-knob {
+    transform: scale(1.12);
+    background: var(--color-primary-light, var(--color-primary));
+}
+
+/* Labels */
+.ba-slider__label {
+    position: absolute;
+    bottom: var(--space-3);
+    z-index: 1;
+    background: rgba(0,0,0,.55);
+    color: #fff;
     font-size: var(--size-sm);
     font-weight: 600;
     padding: var(--space-1) var(--space-3);
     border-radius: 100px;
-    letter-spacing: 0.05em;
+    letter-spacing: .05em;
     text-transform: uppercase;
+    pointer-events: none;
+}
+
+.ba-slider__label--before {
+    left: var(--space-3);
+}
+
+.ba-slider__label--after {
+    right: var(--space-3);
+}
+
+/* Brush knob: tilt in drag direction */
+.ba-slider__handle-knob {
+    transition: transform .15s ease, background .15s ease;
+}
+
+.ba-slider.is-dragging .ba-slider__handle-knob {
+    transition: none;
+}
+
+.ba-slider.ba-dir-left .ba-slider__handle-knob {
+    transform: rotate(-25deg) scale(1.1);
+}
+
+.ba-slider.ba-dir-right .ba-slider__handle-knob {
+    transform: rotate(25deg) scale(1.1);
+}
+
+/* Paint splatter drops */
+.ba-paint-drop {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 4;
+    animation: baPaintFall .7s ease-in forwards;
+}
+
+@keyframes baPaintFall {
+    0%   { opacity: .9; transform: translateY(0) scale(1); }
+    60%  { opacity: .6; transform: translateY(30px) scale(.7); }
+    100% { opacity: 0;  transform: translateY(55px) scale(.3); }
+}
+
+/* Paint stroke on the handle line */
+.ba-slider__handle-line {
+    transition: box-shadow .2s ease;
+}
+
+.ba-slider.is-dragging .ba-slider__handle-line {
+    box-shadow: 0 0 12px 3px rgba(196,163,90,.45);
 }
 
 /* ------------------------------------------------------------
@@ -1776,8 +1906,8 @@ strong { font-weight: 600; }
 }
 
 .footer-logo__img {
-    height: 56px;
-    width: auto;
+    max-width: 200px;
+    height: auto;
     display: block;
 }
 

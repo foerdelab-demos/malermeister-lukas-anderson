@@ -266,7 +266,118 @@
   }
 
   /* ----------------------------------------------------------------
-     8. Init all
+     8. Before / After Comparison Slider
+  ---------------------------------------------------------------- */
+  function initBASliders() {
+    var sliders = document.querySelectorAll('.ba-slider');
+    var PAINT_COLORS = ['#C4A35A', '#A8883C', '#1B4852', '#d4b76a', '#8A8880'];
+
+    sliders.forEach(function (slider) {
+      var handle = slider.querySelector('.ba-slider__handle');
+      if (!handle) return;
+
+      var dragging = false;
+      var lastX = null;
+      var dirTimer = null;
+      var dropCount = 0;
+
+      function spawnDrop(clientX, clientY) {
+        if (dropCount > 40) return; // limit DOM nodes
+        var rect = slider.getBoundingClientRect();
+        var x = clientX - rect.left;
+        var y = clientY - rect.top + (Math.random() - 0.5) * 40;
+        var drop = document.createElement('span');
+        drop.className = 'ba-paint-drop';
+        drop.style.left = x + 'px';
+        drop.style.top = y + 'px';
+        drop.style.background = PAINT_COLORS[Math.floor(Math.random() * PAINT_COLORS.length)];
+        var size = 4 + Math.random() * 8;
+        drop.style.width = size + 'px';
+        drop.style.height = size + 'px';
+        slider.appendChild(drop);
+        dropCount++;
+        drop.addEventListener('animationend', function () {
+          drop.remove();
+          dropCount--;
+        });
+      }
+
+      function setPosition(clientX, clientY) {
+        var rect = slider.getBoundingClientRect();
+        var x = clientX - rect.left;
+        var pct = Math.min(Math.max(x / rect.width * 100, 2), 98);
+        slider.style.setProperty('--ba-pos', pct + '%');
+        handle.setAttribute('aria-valuenow', Math.round(pct));
+
+        // Brush tilt direction
+        if (lastX !== null) {
+          var dx = clientX - lastX;
+          if (dx < -1) {
+            slider.classList.add('ba-dir-left');
+            slider.classList.remove('ba-dir-right');
+          } else if (dx > 1) {
+            slider.classList.add('ba-dir-right');
+            slider.classList.remove('ba-dir-left');
+          }
+          // Spawn paint drops on movement
+          if (Math.abs(dx) > 3 && Math.random() > 0.4) {
+            spawnDrop(clientX, clientY || (rect.top + rect.height / 2));
+          }
+        }
+        lastX = clientX;
+
+        // Reset direction class after pause
+        clearTimeout(dirTimer);
+        dirTimer = setTimeout(function () {
+          slider.classList.remove('ba-dir-left', 'ba-dir-right');
+        }, 200);
+      }
+
+      function onStart(e) {
+        e.preventDefault();
+        dragging = true;
+        slider.classList.add('is-dragging');
+        var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        var clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        setPosition(clientX, clientY);
+      }
+
+      function onMove(e) {
+        if (!dragging) return;
+        var clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        var clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        setPosition(clientX, clientY);
+      }
+
+      function onEnd() {
+        dragging = false;
+        lastX = null;
+        slider.classList.remove('is-dragging', 'ba-dir-left', 'ba-dir-right');
+      }
+
+      slider.addEventListener('mousedown', onStart);
+      slider.addEventListener('touchstart', onStart, { passive: false });
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('touchmove', onMove, { passive: true });
+      window.addEventListener('mouseup', onEnd);
+      window.addEventListener('touchend', onEnd);
+
+      /* Keyboard accessibility */
+      handle.addEventListener('keydown', function (e) {
+        var current = parseFloat(slider.style.getPropertyValue('--ba-pos')) || 50;
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') {
+          e.preventDefault();
+          slider.style.setProperty('--ba-pos', Math.max(2, current - 2) + '%');
+        } else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') {
+          e.preventDefault();
+          slider.style.setProperty('--ba-pos', Math.min(98, current + 2) + '%');
+        }
+      });
+    });
+  }
+
+  /* ----------------------------------------------------------------
+     9. Init all
   ---------------------------------------------------------------- */
   document.addEventListener('DOMContentLoaded', function () {
     initNav();
@@ -276,6 +387,7 @@
     initLightbox();
     initGalleryFilter();
     initForms();
+    initBASliders();
   });
 
 }());
